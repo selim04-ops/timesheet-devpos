@@ -16,7 +16,7 @@ public class UserRestControl {
 
 	@Autowired 
 	IUserService userService; 
-
+	private int valure =0;
 	
 	// URL : http://localhost:????/????/????/retrieve-all-users
 	@GetMapping("/retrieve-all-users")
